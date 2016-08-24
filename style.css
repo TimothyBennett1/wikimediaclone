@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  align-content: center;
+}
+main {
+  width: 70.5%;
+  margin: 20px auto;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.main-text {
+  margin-top: 35px;
+  font-size: 19.5px;
+}
+.next-text {
+  line-height: 1.6em;
+}
+.welcome {
+  font-size: 19.5px;
+  text-align: right;
+}
+.wiki-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  padding: 0;
+}
+.wiki-images img {
+  margin: 7% 11% 1% 0%;
+  height: 14%;
+  width: 14%;
+}
+.footer {
+  width: 70.5%;
+  margin: auto;
+  text-align: center;
+}
+.footer-text {
+  font-size: 14px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+.terms {
+  display: inline-block;
+  margin: 20px;
+}
